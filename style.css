@@ -1,0 +1,68 @@
+body {
+
+    
+    
+    box-sizing: border-box
+    margin: 10;
+    padding: 10;
+    background-color: white;
+
+    background:
+    color: #A7C4CB
+
+.candy-stripe  
+  ul
+    list-style: none
+    padding: 0
+    margin: 0
+    display: flex
+    justify-content: space-between
+    background:
+      color: #f0f0f0
+    
+.stripe
+  height: 1rem
+  width: 100%
+  margin: 0
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%)
+  
+  @media (min-width: 900px)
+    height: 1.5rem
+
+  &:nth-child(even)
+    background:
+      color: #EBB9BB
+    width: 150%
+    
+   font-family: Arial, Helvetica, sans-serif;
+   
+    
+    h1 {
+        color: #375e97;
+        font-size: 2em;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        border-bottom: 1px solid #375e97;
+    }
+    
+    h2 {
+        font-size: 1.5em;
+    }
+    
+    .job-title {
+        color: #999999;
+        font-weight: bold;
+    }
+    
+    a:link, a:visited {
+        color: #fb6542; button1 border-radius: 2px;
+    }
+    
+    a:hover {
+        text-decoration: none;
+    
+       
+         }
+        
+    
+
+
